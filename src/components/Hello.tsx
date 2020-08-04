@@ -11,12 +11,21 @@ function Hello({ name, enthusiasmLevel = 1 }: Props) {
         throw new Error('You could be a little more enthusiastic. :D');
     }
 
-    const testApi = () => {
-        axios.post('http://localhost:8000/users/', {
-            "name": 'name',
-            "email": 'email'
+    const getApi = () => {
+        axios.get('http://localhost:8000/users/9').then(data => console.log(data))
+    }
+
+    const deleteApi = () => {
+        axios.delete('http://localhost:8000/users/9').then(data => console.log(data))
+    }
+
+    const putApi = () => {
+        axios.put('http://localhost:8000/users/9', {
+            "name": 'testname',
+            "email": 'testemail',
         }).then(data => console.log(data))
     }
+
 
 
     return (
@@ -26,9 +35,19 @@ function Hello({ name, enthusiasmLevel = 1 }: Props) {
             </div>
             <div>
                 <button
-                onClick={testApi}
+                onClick={getApi}
                 >
-                    test
+                    get
+                </button>
+                <button
+                    onClick={putApi}
+                >
+                    put
+                </button>
+                <button
+                    onClick={deleteApi}
+                >
+                    delete
                 </button>
             </div>
         </div>
