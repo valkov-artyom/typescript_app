@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:backend" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="667a91e1-88fb-4e91-8cd0-5e8c50f9e84a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hello.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hello.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="667a91e1-88fb-4e91-8cd0-5e8c50f9e84a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +58,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -61,7 +83,7 @@
       <workItem from="1596145170164" duration="1101000" />
       <workItem from="1596570253510" duration="277000" />
       <workItem from="1596570595561" duration="904000" />
-      <workItem from="1596571527400" duration="6231000" />
+      <workItem from="1596571527400" duration="6310000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1596570732992</created>
@@ -77,11 +99,41 @@
       <option name="project" value="LOCAL" />
       <updated>1596577112664</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add express and psql connection">
+      <created>1596577763401</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596577763401</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="backend" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start project" />
@@ -101,14 +153,22 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="532" y="299" width="525" height="335" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1600.873@0.27.1600.873" timestamp="1596572113626" />
-    <state x="363" y="27" width="864" height="873" key="CommitChangelistDialog2" timestamp="1596577112465">
+    <state x="363" y="27" width="864" height="873" key="CommitChangelistDialog2" timestamp="1596577763276">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="363" y="27" width="864" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1596577112465" />
+    <state x="363" y="27" width="864" height="873" key="CommitChangelistDialog2/0.27.1600.873@0.27.1600.873" timestamp="1596577763276" />
     <state x="583" y="234" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596571746158">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="583" y="234" width="424" height="491" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1596571746158" />
+    <state x="289" y="98" width="1022" height="737" key="SettingsEditor" timestamp="1596577837796">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="289" y="98" width="1022" height="737" key="SettingsEditor/0.27.1600.873@0.27.1600.873" timestamp="1596577837796" />
+    <state x="395" y="195" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1596577774989">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="395" y="195" width="800" height="543" key="Vcs.Push.Dialog.v2/0.27.1600.873@0.27.1600.873" timestamp="1596577774989" />
     <state x="457" y="156" width="676" height="622" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596573857409">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
