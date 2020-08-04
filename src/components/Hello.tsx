@@ -1,4 +1,5 @@
 import * as React from 'react';
+import axios from 'axios';
 
 export interface Props {
     name: string;
@@ -10,10 +11,25 @@ function Hello({ name, enthusiasmLevel = 1 }: Props) {
         throw new Error('You could be a little more enthusiastic. :D');
     }
 
+    const testApi = () => {
+        axios.post('http://localhost:8000/users/', {
+            "name": 'name',
+            "email": 'email'
+        }).then(data => console.log(data))
+    }
+
+
     return (
         <div className="hello">
             <div className="greeting">
                 Hello {name + getExclamationMarks(enthusiasmLevel)}
+            </div>
+            <div>
+                <button
+                onClick={testApi}
+                >
+                    test
+                </button>
             </div>
         </div>
     );
